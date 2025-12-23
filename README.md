@@ -87,7 +87,7 @@ Each theme controls:
 Below is the complete design exploration for **FORCASTR**, created in Figma  
 and exported as a single reference frame.
 
-![FORCASTR – Figma Design](src/assets/Figma/figma.png)
+![FORCASTR – Figma Design](Weather/src/assets/Figma/figma.png)
 
 
 ## 🚀 Getting Started
