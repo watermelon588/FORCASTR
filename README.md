@@ -73,17 +73,15 @@ Themes are centrally managed and passed to all components for consistency.
 
 ---
 
-🚀 Getting Started
+## 🚀 Getting Started
 bash
 git clone https://github.com/your-username/forcastr.git
 cd forcastr
 npm install
 npm run dev
 
-
-
 Create a .env file:
-bash
+
 VITE_OPENWEATHER_API_KEY=your_api_key_here
 
 🧩 Folder Structure
@@ -100,6 +98,7 @@ src/
  │   └─ formatForecast.js
  ├─ assets/
  │   └─ images & icons
+
 
 🌱 Future Ideas
 
