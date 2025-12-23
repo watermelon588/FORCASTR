@@ -96,8 +96,9 @@ npm run dev
 Create a .env file in the root directory:
 
 VITE_OPENWEATHER_API_KEY=your_api_key_here
-
+```
 🧩 Folder Structure
+```bash
 src/
  ├─ components/
  │   ├─ Weather.jsx
@@ -114,15 +115,45 @@ src/
  │   └─ Figma/
  │      ├─ designs/
  │      └─ themes/
-
+```
 🎨 Design Files (Inside Repo)
 
 Figma design templates can be found at:
-
+```bash
 src/assets/Figma/designs/
-
+```
 
 Alternate theme and concept explorations:
-
+```bash
 src/assets/Figma/themes/
+```
+---
 
+🌱 Future Ideas
+
+Theme auto-switch based on weather
+
+Animated weather icons
+
+Offline fallback
+
+Location-based forecast
+
+Accessibility mode
+
+🧭 Why FORCASTR?
+
+FORCASTR started as a from-scratch experiment.
+
+No templates
+
+No UI kits
+
+No copy–paste apps
+
+I wanted to hard-code everything myself —
+from API calls and data formatting
+to layout decisions and micro-interactions —
+and truly understand how a real-world product comes together.
+
+Many more projects are on the way.
