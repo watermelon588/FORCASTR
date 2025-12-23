@@ -2,13 +2,14 @@
 
 **Feel the forecast.**
 
-A glass-morphism inspired weather experience built with **React**, **Tailwind CSS**, and **OpenWeather API**, focused on **clarity**, **motion**, and **calm UI** rather than data overload.
+A glass-morphism inspired weather experience built with **React**, **Tailwind CSS**, and the **OpenWeather API**, focused on **clarity**, **motion**, and **calm UI** rather than data overload.
+
 ---
 
 ## 🎨 Design Reference (Figma Exports)
 
 All UI screens and theme explorations were originally designed in Figma  
-and exported as static references inside the repository.
+and exported as static references inside this repository.
 
 ### Main App Screens
 - Landing screen
@@ -21,6 +22,8 @@ and exported as static references inside the repository.
 - Alternate background themes
 - Light / dark mood variations
 - Weather-based visual concepts
+
+---
 
 ## ✨ What makes it different?
 
@@ -69,18 +72,28 @@ This app is designed to *feel* like weather, not just display it.
 
 ---
 
+## 🎨 Themes
+
 Themes are centrally managed and passed to all components for consistency.
+
+Each theme controls:
+- Background image
+- Text color
+- Secondary text color
+- Accent color
+- Icon style
 
 ---
 
 ## 🚀 Getting Started
-bash
+
+```bash
 git clone https://github.com/your-username/forcastr.git
 cd forcastr
 npm install
 npm run dev
 
-Create a .env file:
+Create a .env file in the root directory:
 
 VITE_OPENWEATHER_API_KEY=your_api_key_here
 
@@ -97,37 +110,19 @@ src/
  ├─ utils/
  │   └─ formatForecast.js
  ├─ assets/
- │   └─ images & icons
+ │   ├─ images/
+ │   └─ Figma/
+ │      ├─ designs/
+ │      └─ themes/
 
+🎨 Design Files (Inside Repo)
 
-🌱 Future Ideas
+Figma design templates can be found at:
 
-Theme auto-switch based on weather
-Animated weather icons
-Offline fallback
-Location-based forecast
-Accessibility mode
-
-🎨 Design Reference
-
-Figma design templates are available inside the repository:
 src/assets/Figma/designs/
 
 
-Alternate theme references:
+Alternate theme and concept explorations:
+
 src/assets/Figma/themes/
 
-🧭 Why FORCASTR?
-
-FORCASTR started as a from-scratch experiment.
-
-No templates
-No UI kits
-No copy–paste apps
-
-I wanted to hard-code everything myself —
-from API calls and data formatting
-to layout decisions and micro-interactions —
-and truly understand how a real-world product comes together.
-
-Many more projects are on the way.
