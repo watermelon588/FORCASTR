@@ -88,7 +88,7 @@ Below is the complete design exploration for **FORCASTR**, created in Figma
 and exported as a single reference frame.
 
 <p align="center">
-  <img src="Weather/src/assets/Figma/figma.png" alt="FORCASTR Figma Design" width="90%" />
+  <img src="Weather/src/assets/Figma/figma.png" alt="FORCASTR Figma Design" width="95%" />
 </p>
 
 
