@@ -1,0 +1,127 @@
+# 🌤️ FORCASTR
+
+**Feel the forecast.**
+
+A glass-morphism inspired weather experience built with **React**, **Tailwind CSS**, and **OpenWeather API**, focused on **clarity**, **motion**, and **calm UI** rather than data overload.
+---
+
+## 🎨 Design Reference (Figma Exports)
+
+All UI screens and theme explorations were originally designed in Figma  
+and exported as static references inside the repository.
+
+### Main App Screens
+- Landing screen
+- Current weather view
+- Forecast view
+- Hourly weather view
+- Expanded forecast states
+
+### Theme Explorations
+- Alternate background themes
+- Light / dark mood variations
+- Weather-based visual concepts
+
+## ✨ What makes it different?
+
+- 🌌 **Minimal UI, maximum depth**
+- 🪟 Glassmorphism cards with smooth transitions
+- 🔍 Intelligent search with graceful error handling
+- 📍 Current weather, 5-day forecast & hourly breakdown
+- 🎨 Theme-aware visuals (background + text harmony)
+- 🧭 Expandable forecasts instead of cluttered tables
+
+This app is designed to *feel* like weather, not just display it.
+
+---
+
+## 🧠 Tech Stack
+
+- **React (Vite)**
+- **Tailwind CSS**
+- **OpenWeather API**
+- **Font Awesome**
+- **Axios**
+- **React Router**
+
+---
+
+## 🗺️ Features
+
+### 🌤 Current Weather
+- Temperature & RealFeel
+- Min / Max temperature
+- Humidity, Pressure, Wind, Visibility
+- Clean, focused presentation
+
+### 📆 Weather Forecast
+- Next 5 days overview
+- Expandable day cards
+- Morning / Afternoon / Evening / Night temps
+- Precipitation & wind insights
+- Scrollable container (fixed size, clean UX)
+
+### ⏰ Hourly Weather
+- Next 24 hours snapshot
+- Expandable hourly rows
+- Key stats per hour
+- Smooth hover & expand animations
+
+---
+
+Themes are centrally managed and passed to all components for consistency.
+
+---
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/your-username/forcastr.git
+cd forcastr
+npm install
+npm run dev
+
+Create a .env file:
+
+VITE_OPENWEATHER_API_KEY=your_api_key_here
+
+🧩 Folder Structure
+src/
+ ├─ components/
+ │   ├─ Weather.jsx
+ │   ├─ Current.jsx
+ │   ├─ Forecast.jsx
+ │   ├─ HourlyWeather.jsx
+ │   └─ Stat.jsx
+ ├─ pages/
+ │   └─ Home.jsx
+ ├─ utils/
+ │   └─ formatForecast.js
+ ├─ assets/
+ │   └─ images & icons
+
+
+ 🌱 Future Ideas
+
+Theme auto-switch by weather
+Animated weather icons
+Offline fallback
+Location-based forecast
+Accessibility mode
+
+![FORCASTR Design](./assets/figma/forcastr-design.png)
+
+## 🧭 Why FORCASTR?
+
+FORCASTR started as a **from-scratch experiment**.
+
+- No templates  
+- No UI kits  
+- No copy–paste apps  
+
+I wanted to **hard-code everything myself** —  
+from API calls and data formatting  
+to layout decisions and micro-interactions —  
+and truly understand how a real-world product comes together.
+
+Many more projects are on the way.
