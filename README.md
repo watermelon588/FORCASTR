@@ -80,6 +80,7 @@ npm install
 npm run dev
 
 
+
 Create a .env file:
 
 VITE_OPENWEATHER_API_KEY=your_api_key_here
@@ -102,24 +103,18 @@ src/
 🌱 Future Ideas
 
 Theme auto-switch based on weather
-
 Animated weather icons
-
 Offline fallback
-
 Location-based forecast
-
 Accessibility mode
 
 🎨 Design Reference
 
 Figma design templates are available inside the repository:
-
 src/assets/Figma/designs/
 
 
 Alternate theme references:
-
 src/assets/Figma/themes/
 
 🧭 Why FORCASTR?
@@ -127,9 +122,7 @@ src/assets/Figma/themes/
 FORCASTR started as a from-scratch experiment.
 
 No templates
-
 No UI kits
-
 No copy–paste apps
 
 I wanted to hard-code everything myself —
