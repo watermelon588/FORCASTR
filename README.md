@@ -91,8 +91,6 @@ and exported as a single reference frame.
   <img src="Weather/src/assets/Figma/figma.png" alt="FORCASTR Figma Design" width="90%" />
 </p>
 
-![FORCASTR – Figma Design](Weather/src/assets/Figma/figma.png)
-
 
 ## 🚀 Getting Started
 
