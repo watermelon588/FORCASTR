@@ -73,13 +73,12 @@ Themes are centrally managed and passed to all components for consistency.
 
 ---
 
-## 🚀 Getting Started
-
-```bash
+🚀 Getting Started
 git clone https://github.com/your-username/forcastr.git
 cd forcastr
 npm install
 npm run dev
+
 
 Create a .env file:
 
@@ -100,28 +99,42 @@ src/
  ├─ assets/
  │   └─ images & icons
 
+🌱 Future Ideas
 
- 🌱 Future Ideas
+Theme auto-switch based on weather
 
-Theme auto-switch by weather
 Animated weather icons
+
 Offline fallback
+
 Location-based forecast
+
 Accessibility mode
 
-![FORCASTR Design](./assets/figma/forcastr-design.png)
+🎨 Design Reference
 
-## 🧭 Why FORCASTR?
+Figma design templates are available inside the repository:
 
-FORCASTR started as a **from-scratch experiment**.
+src/assets/Figma/designs/
 
-- No templates  
-- No UI kits  
-- No copy–paste apps  
 
-I wanted to **hard-code everything myself** —  
-from API calls and data formatting  
-to layout decisions and micro-interactions —  
+Alternate theme references:
+
+src/assets/Figma/themes/
+
+🧭 Why FORCASTR?
+
+FORCASTR started as a from-scratch experiment.
+
+No templates
+
+No UI kits
+
+No copy–paste apps
+
+I wanted to hard-code everything myself —
+from API calls and data formatting
+to layout decisions and micro-interactions —
 and truly understand how a real-world product comes together.
 
 Many more projects are on the way.
